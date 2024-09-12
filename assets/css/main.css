@@ -3328,3 +3328,30 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina el espacio entre bordes */
+}
+
+/* Estilo para las celdas y encabezados */
+th, td {
+    width: 50%; 
+    padding: 10px; 
+    border: none;
+    text-align: center; /* Centra el texto dentro de las celdas */
+    vertical-align: middle; /* Alineado verticalmente*/
+}
+
+/* Ajusta la imagen para que ocupe el tamaño correcto */
+td img {
+    max-width: 100%; /* Limita el ancho máximo de la imagen para que se ajuste al tamaño de la celda */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Opcional: Ajusta la altura si es necesario */
+td, th {
+    height: 100px; /* Establece una altura fija para las celdas */
+}
