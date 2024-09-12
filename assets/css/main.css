@@ -3355,3 +3355,16 @@ td img {
 td, th {
     height: 100px; /* Establece una altura fija para las celdas */
 }
+
+.imgfea{
+
+	width:500px;
+	height: auto;
+}
+.div-img-fea{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	
+}
